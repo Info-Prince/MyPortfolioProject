@@ -37,6 +37,7 @@ li {
     margin: 0;
     font-family: "Poppins", serif;
 }
+
 /*! base rule end */
 
 
@@ -468,7 +469,7 @@ header {
     align-items: center;
     justify-content: center;
     padding-top: 7rem;
-    gap: 2rem;
+    gap: 7rem;
 
     & .section-heading {
         font-size: 8rem;
@@ -713,8 +714,8 @@ header {
 
             }
             & .card {
-                width: 80%;
-                height: 80%;
+                width: 70%;
+                height: 70%;
                 border-radius: 25%;
                 animation: none;
                 position: relative;
@@ -726,7 +727,8 @@ header {
                     height: 100%;
                     background: var(--low-contrast-text);
                     border-radius: inherit;
-                    animation: changebgcolor 8s infinite alternate forwards;  
+                    animation: changebgcolor 8s infinite alternate forwards; 
+                    transform: scaleX(-1); 
                 }
             }
             
