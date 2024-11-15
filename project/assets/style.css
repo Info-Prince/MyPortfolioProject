@@ -704,8 +704,8 @@ header {
                         content: "";
                         position: absolute;
                         left: -2.5px;
-                        top: -4rem;
-                        height: calc(100% + 9rem);
+                        top: -6rem;
+                        height: calc(100% + 11rem);
                         width: 2.5px;
                         background-color: #3c3c3c;
                     }
