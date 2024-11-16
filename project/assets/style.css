@@ -728,8 +728,8 @@ header {
                         content: "";
                         position: absolute;
                         left: -2.5px;
-                        top: -8rem;
-                        height: calc(100% + 13rem);
+                        top: -6rem;
+                        height: calc(100% + 11rem);
                         width: 2.5px;
                         background-color: #3c3c3c;
                     }
@@ -852,8 +852,21 @@ header {
     & .wrap-certification .title-list-items {
         width: 100%;
     }
-    & #skill-section {
-        width: 100%;
+    & .certification-right {
+        width: 50%;
+        flex-direction: column;
+
+        & #skill-section {
+            order: 2;
+        }
+
+        & .certification-subpara {
+            color: var(--low-contrast-text);
+            /* font-size: 1.5rem; */
+            & a {
+                color: var(--primary-400);
+            }
+        }
     }
 }
 
