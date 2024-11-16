@@ -518,6 +518,7 @@ header {
         }
         & #intro-video {
             padding-top: 1rem;
+            width: fit-content;
             color: var(--primary-400);
             transition: 0.2s linear;
 
