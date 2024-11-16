@@ -132,7 +132,7 @@ li {
         
         
         & .card-image {
-            background-color: var(--primary-200);
+            background: linear-gradient(43deg, rgba(121,81,202,1) 0%, rgba(112,44,255,1) 31%, rgba(239,232,255,1) 71%, rgba(93,66,154,1) 100%);
             height: 100%;
             width: 100%;
             /* box-shadow: #353535 0px 0px 48px 8px, inset 0 4px 53px 18px #00000048; */
@@ -176,7 +176,7 @@ li {
 /*! navbar section start */
 header {
     background: var(--navbar-gradient-color);
-    color: white;
+    color: var(--white);
     position: fixed;
     left: 0;
     right: 0;
@@ -202,7 +202,9 @@ header {
             font-size: 3rem;
             animation: fadeInleft 1s linear;
             font-weight: 800;
-            
+            cursor: pointer;
+            font-family: "Kaushan Script", cursive;
+            text-decoration: none;
         }
         & .navbar-links {
             list-style: none;
@@ -589,7 +591,6 @@ header {
                     display: flex;
                     flex-direction: column;
                     /* gap: 0.4rem; */
-                    /* border-left: 1px solid var(--jet); */
                     position: relative;
 
 
@@ -920,7 +921,7 @@ header {
                 }
 
                 & .work-heading {
-                    color: var(--white-2);
+                    color: var(--white);
                     font-weight: 400;
                     font-size: 1.8rem;
                 }
