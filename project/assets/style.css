@@ -328,6 +328,7 @@ header {
             align-items: center;
             justify-content: center;
             width: fit-content;
+            text-decoration: none;
             gap: 1rem;
             padding: 1.5rem 1.7rem;
             background-color: var(--primary-100);
@@ -340,10 +341,12 @@ header {
             visibility: hidden;
             animation-fill-mode: forwards;
 
+
             & .btn-content {
                 font-size: 2.5rem;
                 letter-spacing: 0;
                 font-weight: 600;
+                text-decoration: none;
             }
 
             &:hover {
@@ -601,6 +604,15 @@ header {
             color: var(--low-contrast-text);
             /* font-size: 1.6rem; */
         }
+        & #intro-video {
+            padding-top: 1rem;
+            color: var(--primary-400);
+            transition: 0.2s linear;
+
+            &:hover {
+                color: var(--primary-300);
+            }
+        }
     }
 
     & .right-content {
@@ -730,6 +742,9 @@ header {
                     animation: changebgcolor 8s infinite alternate forwards; 
                     transform: scaleX(-1); 
                 }
+            }
+            & .experience-card img {
+                transform: scale(1);
             }
             
             & .title-list-items :last-child {
