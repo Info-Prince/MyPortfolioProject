@@ -471,7 +471,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 7rem;
+    padding-top: 9rem;
     gap: 7rem;
 
     & .section-heading {
@@ -1033,3 +1033,121 @@ header {
     
 }
 /*! recent work section end */
+
+
+
+/*! Contact Section Start */
+.contact-section {
+    
+    background-color: #000000;
+
+    & .wrap-contact-info {
+
+
+        & .MyContacts {
+            width: 100%;    
+            list-style: none;
+            padding-top: 3rem;
+            /* align-items: start;
+            justify-content: start; */
+            gap: 3rem;
+            margin-bottom: 3.5rem;
+            flex-direction: column;
+
+            & .contacts-info {
+                width: 100%;
+                align-items: center;
+                justify-content: start;
+                gap: 1.6rem;
+                
+                & .icon {
+                    padding: 1.5rem;
+                    aspect-ratio: 1;
+                }
+
+                & .contact-details {
+                    flex-direction: column;
+                    width: 70%;
+                    & .label {
+                        color: var(--primary-400);
+                        text-transform: uppercase;
+                        /* font-size: 1.2rem; */
+                        font-weight: 300;
+                    }
+                    & a,p {
+                        text-decoration: none;
+                        font-size: 1.4rem;
+                        font-weight: 300;
+                        color: var(--white);
+                    }
+                }
+            }
+        }
+        
+        & .social-links {
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+            & .social-icon {
+                & img {
+                    width: 2rem;
+                }
+            }
+        }
+    }
+
+    & .contact-right {
+        & .contact-form {
+            & .contact-heading {
+                font-size: 2.4rem;
+                font-weight: 600;
+                margin-bottom: 2rem;
+            }
+            & .form-user-details {
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 3rem;
+                gap: 3rem;
+    
+                & input {
+                    border: 1px solid var(--card-background);
+                    border-radius: 1rem;
+                    background: transparent;
+                    padding: 1.4rem 2.4rem;
+                    font-size: 1.5rem;
+                    width: 50%;
+                    outline: none;
+                }
+            }
+            & textarea {
+                font-size: 1.5rem;
+                width: 100%;
+                height: 12rem;
+                border-radius: 1rem;
+                border: 1px solid var(--card-background);
+                background: transparent;
+                padding: 1.4rem 2.4rem;
+                resize: none;
+                outline: none;
+                margin-bottom: 3rem;
+            }
+        }
+    
+        & .submit-form {
+            align-items: center;
+            justify-content: end;
+            & .send-msg {
+                border: none;
+                padding: 1.7rem 2rem;
+                gap: 1.3rem;
+                cursor: pointer;
+    
+                & .submitpara {
+                    font-size: 1.6rem;
+                    color: var(--primary-400);
+                }
+            }
+        }
+    }
+}
+/*! Contact Section end */
