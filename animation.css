@@ -1,3 +1,137 @@
+.about-section {
+    animation: appearfromleft linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+
+.proficiency-section {
+    animation: appearfrombottom linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition:  all 1s ease-in-out;
+}
+
+.resume-section .section-head-wrapper .section-wrapper .title-list-items{
+    animation: popfromcenter linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+
+.resume-section .section-head-wrapper .wrap-certification .title-list-items {
+    animation: none;
+}
+
+.resume-section .section-head-wrapper .section-wrapper .card {
+    animation: popfromcenter linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+
+.resume-section .section-head-wrapper .wrap-certification {
+    animation: popfromright;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+.resume-section .section-head-wrapper .certification-right {
+    animation:popfromright;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+.work-section .section-heading , .section-para , .section-subpara {
+    animation: popfromright linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+.work-section .work-items-wrapper .work-item {
+    animation: popfromright linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+
+.contact-section .section-wrapper .wrap-contact-info {
+    animation: appearfrombottom linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+.contact-section .section-wrapper .contact-right {
+    animation: appearfrombottom linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+    transition: all 1s ease-in-out;
+}
+
+
+
+@keyframes appearfromleft {
+    from {
+        opacity: 0;
+        scale: 0.5;
+        transform: translate(-100%);
+    }
+    to {
+        scale: 1;
+        transform: translate(0);
+    }
+}
+@keyframes appearfrombottom {
+    from {
+        opacity: 0;
+        scale: 0.5;
+        transform: translateY(100%);
+    }    
+    to {
+        scale: 1;
+        transform: translate(0);
+    }
+}
+@keyframes popfromcenter {
+    from {
+        opacity: 0;
+        scale: 0.3;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes popfromright {
+    from {
+        opacity: 0;
+        scale: 0.2;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+    
+}
+
+@keyframes appearfromtop {
+    from {
+        opacity: 0;
+        scale: 0.2;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateY(0);
+    }
+}
+
 @keyframes fadeInleft {
     0% {
         opacity: 0;
