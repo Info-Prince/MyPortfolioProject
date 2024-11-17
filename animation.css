@@ -58,13 +58,13 @@
 .contact-section .section-wrapper .wrap-contact-info {
     animation: appearfrombottom linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 40%;
+    animation-range: entry 0 cover 30%;
     transition: all 1s ease-in-out;
 }
 .contact-section .section-wrapper .contact-right {
     animation: appearfrombottom linear;
     animation-timeline: view();
-    animation-range: entry 0 cover 40%;
+    animation-range: entry 0 cover 30%;
     transition: all 1s ease-in-out;
 }
 
